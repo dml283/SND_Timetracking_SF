@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>ChangePasswordController</members>
+        <members>CreateWeeks_Project_Batch</members>
         <members>ForgotPasswordController</members>
         <members>SiteLoginController</members>
         <members>SiteRegisterController</members>
