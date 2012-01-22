@@ -65,7 +65,7 @@
             <useReportChart>false</useReportChart>
         </components>
     </rightSection>
-    <runningUser>jrico-snd-dev@softwarenextdoor.com</runningUser>
+    <runningUser>admin@softwarenextdoor.com.dev</runningUser>
     <textColor>#000000</textColor>
     <title>Time Tracking Dashboards</title>
     <titleColor>#000000</titleColor>

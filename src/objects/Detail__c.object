@@ -35,7 +35,6 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Time Tracking App Object</description>
     <enableActivities>true</enableActivities>
-    <enableEnhancedLookup>false</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
