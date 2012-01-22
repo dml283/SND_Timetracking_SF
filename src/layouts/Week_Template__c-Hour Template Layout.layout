@@ -63,7 +63,12 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Week_Day__c</fields>
+        <fields>Hours__c</fields>
+        <fields>CREATEDBY_USER</fields>
         <relatedList>Hour_Template__c.Week_Template__c</relatedList>
+        <sortField>NAME</sortField>
+        <sortOrder>Desc</sortOrder>
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
@@ -92,4 +97,10 @@
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00hd000000M5R5i</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>
