@@ -1,0 +1,26 @@
+# don't need these
+
+.settings/
+
+# OS generated files
+
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Removed Profiles
+
+src/profiles/Chatter\ External\ User.profile
+src/profiles/Chatter\ Free\ User.profile
+src/profiles/Chatter\ Moderator\ User.profile
+src/profiles/ContractManager.profile
+src/profiles/Force%2Ecom\ -\ Free\ User.profile
+src/profiles/Guest\ License\ User.profile
+src/profiles/MarketingProfile.profile
+src/profiles/Platform\ System\ Admin.profile
+src/profiles/Sample\ Free\ Force%2Ecom\ Profile.profile
+src/profiles/SND\ User.profile
+src/profiles/SolutionManager.profile
+src/profiles/Standard.profile
+src/profiles/ReadOnly.profile

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contacto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contactos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Años viviendo en casa actual --></label>
+        <name>Anos_viviendo_en_casa_actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apellido Materno --></label>
+        <name>Apellido_Materno__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apellido Paterno --></label>
+        <name>Apellido_Paterno__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle --></label>
+        <name>Calle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código Postal --></label>
+        <name>Codigo_Postal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Colonia --></label>
+        <name>Colonia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correo Electrónico --></label>
+        <name>Correo_Electronico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edad (Años) --></label>
+        <name>Edad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escolaridad --></label>
+        <name>Escolaridad__c</name>
+        <picklistValues>
+            <masterLabel>Bachillerato/Tecnico</masterLabel>
+            <translation><!-- Bachillerato/Tecnico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doctorado</masterLabel>
+            <translation><!-- Doctorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maestría</masterLabel>
+            <translation><!-- Maestría --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No tiene</masterLabel>
+            <translation><!-- No tiene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preparatoria</masterLabel>
+            <translation><!-- Preparatoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primaria</masterLabel>
+            <translation><!-- Primaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secundaria</masterLabel>
+            <translation><!-- Secundaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Univerisdad</masterLabel>
+            <translation><!-- Univerisdad --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Escolaridad de Hijos --></label>
+        <name>Escolaridad_de_Hijos__c</name>
+        <picklistValues>
+            <masterLabel>Bachillerato/Tecnico</masterLabel>
+            <translation><!-- Bachillerato/Tecnico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doctorado</masterLabel>
+            <translation><!-- Doctorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maestría</masterLabel>
+            <translation><!-- Maestría --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No tiene</masterLabel>
+            <translation><!-- No tiene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preescolar</masterLabel>
+            <translation><!-- Preescolar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preparatoria</masterLabel>
+            <translation><!-- Preparatoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primaria</masterLabel>
+            <translation><!-- Primaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secundaria</masterLabel>
+            <translation><!-- Secundaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Universidad</masterLabel>
+            <translation><!-- Universidad --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estado Civil --></label>
+        <name>Estado_Civil__c</name>
+        <picklistValues>
+            <masterLabel>Casado(a)</masterLabel>
+            <translation><!-- Casado(a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Divorciado(a)</masterLabel>
+            <translation><!-- Divorciado(a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soltero(a)</masterLabel>
+            <translation><!-- Soltero(a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viudo(a)</masterLabel>
+            <translation><!-- Viudo(a) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>Estado__c</name>
+        <picklistValues>
+            <masterLabel>Aguascalientes</masterLabel>
+            <translation><!-- Aguascalientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja California</masterLabel>
+            <translation><!-- Baja California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja California S</masterLabel>
+            <translation><!-- Baja California S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campeche</masterLabel>
+            <translation><!-- Campeche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chiapas</masterLabel>
+            <translation><!-- Chiapas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chihuahua</masterLabel>
+            <translation><!-- Chihuahua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coahuila</masterLabel>
+            <translation><!-- Coahuila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colima</masterLabel>
+            <translation><!-- Colima --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distrito Federal</masterLabel>
+            <translation><!-- Distrito Federal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Durango</masterLabel>
+            <translation><!-- Durango --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estado de México</masterLabel>
+            <translation><!-- Estado de México --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guanajuato</masterLabel>
+            <translation><!-- Guanajuato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guerrero</masterLabel>
+            <translation><!-- Guerrero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hidalgo</masterLabel>
+            <translation><!-- Hidalgo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jalisco</masterLabel>
+            <translation><!-- Jalisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michoacán</masterLabel>
+            <translation><!-- Michoacán --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morelos</masterLabel>
+            <translation><!-- Morelos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nayarit</masterLabel>
+            <translation><!-- Nayarit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo León</masterLabel>
+            <translation><!-- Nuevo León --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oaxaca</masterLabel>
+            <translation><!-- Oaxaca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puebla</masterLabel>
+            <translation><!-- Puebla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Querétaro</masterLabel>
+            <translation><!-- Querétaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quintana Roo</masterLabel>
+            <translation><!-- Quintana Roo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Luis Potosí</masterLabel>
+            <translation><!-- San Luis Potosí --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sinaloa</masterLabel>
+            <translation><!-- Sinaloa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonora</masterLabel>
+            <translation><!-- Sonora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tabasco</masterLabel>
+            <translation><!-- Tabasco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamaulipas</masterLabel>
+            <translation><!-- Tamaulipas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tlaxcala</masterLabel>
+            <translation><!-- Tlaxcala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veracruz</masterLabel>
+            <translation><!-- Veracruz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yucatán</masterLabel>
+            <translation><!-- Yucatán --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zacatecas</masterLabel>
+            <translation><!-- Zacatecas --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fecha de Nacimiento --></label>
+        <name>Fecha_de_Nacimiento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hobbies --></label>
+        <name>Hobbies__c</name>
+        <picklistValues>
+            <masterLabel>Artísticos</masterLabel>
+            <translation><!-- Artísticos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basquetbol</masterLabel>
+            <translation><!-- Basquetbol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beisbol</masterLabel>
+            <translation><!-- Beisbol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation><!-- Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cine</masterLabel>
+            <translation><!-- Cine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Espectáculos</masterLabel>
+            <translation><!-- Espectáculos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Futbol</masterLabel>
+            <translation><!-- Futbol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gimnasio</masterLabel>
+            <translation><!-- Gimnasio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toreo</masterLabel>
+            <translation><!-- Toreo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Como se enteró de nosotros? --></label>
+        <name>Medio_de_Conocimiento__c</name>
+        <picklistValues>
+            <masterLabel>Internet</masterLabel>
+            <translation><!-- Internet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publicación</masterLabel>
+            <translation><!-- Publicación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recomendación</masterLabel>
+            <translation><!-- Recomendación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visita a la tienda</masterLabel>
+            <translation><!-- Visita a la tienda --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Municipio --></label>
+        <name>Municipio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre(s) --></label>
+        <name>Nombre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de Hijos --></label>
+        <name>Numero_de_Hijos__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 o más</masterLabel>
+            <translation><!-- 3 o más --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ocupación --></label>
+        <name>Ocupacion__c</name>
+        <picklistValues>
+            <masterLabel>Ama de Casa</masterLabel>
+            <translation><!-- Ama de Casa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comerciante</masterLabel>
+            <translation><!-- Comerciante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empleado de gobierno</masterLabel>
+            <translation><!-- Empleado de gobierno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estudiante</masterLabel>
+            <translation><!-- Estudiante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negocio Propio</masterLabel>
+            <translation><!-- Negocio Propio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profesionista</masterLabel>
+            <translation><!-- Profesionista --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sexo --></label>
+        <name>Sexo__c</name>
+        <picklistValues>
+            <masterLabel>Femenino</masterLabel>
+            <translation><!-- Femenino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Masculino</masterLabel>
+            <translation><!-- Masculino --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Teléfono Casa --></label>
+        <name>Telefono_Casa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono Celular --></label>
+        <name>Telefono_Celular__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono Oficina --></label>
+        <name>Telefono_Oficina__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Contacto --></label>
+        <name>Tipo_de_Contacto__c</name>
+        <picklistValues>
+            <masterLabel>Cliente</masterLabel>
+            <translation><!-- Cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proveedor</masterLabel>
+            <translation><!-- Proveedor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Inmueble --></label>
+        <name>Tipo_de_Inmueble__c</name>
+        <picklistValues>
+            <masterLabel>Casa</masterLabel>
+            <translation><!-- Casa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Departamento</masterLabel>
+            <translation><!-- Departamento --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato de Contacto</layout>
+        <sections>
+            <label><!-- Información de Contacto --></label>
+            <section>Información de Contacto</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Marketing --></label>
+            <section>Información de Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
