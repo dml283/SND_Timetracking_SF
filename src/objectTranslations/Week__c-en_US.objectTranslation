@@ -36,5 +36,6 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    <nameFieldLabel><!-- Week Number --></nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

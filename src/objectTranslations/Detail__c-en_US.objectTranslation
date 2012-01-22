@@ -24,5 +24,6 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    <nameFieldLabel><!-- Detail Number --></nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
