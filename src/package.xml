@@ -118,7 +118,6 @@
     <types>
         <members>CompanyDashboards</members>
         <members>SND_Dashboards</members>
-        <members>SND_Dashboards/Time_Tracking_Dashboards</members>
         <name>Dashboard</name>
     </types>
     <types>
