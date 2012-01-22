@@ -5,7 +5,7 @@
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
     <dashboardType>SpecifiedUser</dashboardType>
     <leftSection>
-        <columnSize>Medium</columnSize>
+        <columnSize>Wide</columnSize>
         <components>
             <componentType>Table</componentType>
             <dashboardTableColumn>
@@ -26,9 +26,24 @@
             <report>SND_Reports/Hours_by_Employee</report>
             <showPicturesOnTables>true</showPicturesOnTables>
         </components>
+        <components>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SND_Reports/Hours_per_Employee_by_Week</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <useReportChart>false</useReportChart>
+        </components>
     </leftSection>
     <middleSection>
-        <columnSize>Medium</columnSize>
+        <columnSize>Wide</columnSize>
         <components>
             <chartAxisRange>Auto</chartAxisRange>
             <componentType>Pie</componentType>
@@ -47,7 +62,7 @@
         </components>
     </middleSection>
     <rightSection>
-        <columnSize>Medium</columnSize>
+        <columnSize>Wide</columnSize>
         <components>
             <chartAxisRange>Auto</chartAxisRange>
             <componentType>Pie</componentType>
