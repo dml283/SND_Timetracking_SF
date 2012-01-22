@@ -209,6 +209,7 @@
         <members>SND_Reports/Hours_by_Company</members>
         <members>SND_Reports/Hours_by_Employee</members>
         <members>SND_Reports/Hours_by_Project</members>
+        <members>SND_Reports/Hours_per_Employee_by_Week</members>
         <name>Report</name>
     </types>
     <types>
