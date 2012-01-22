@@ -1,71 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>ChangePasswordController</members>
+        <members>ForgotPasswordController</members>
+        <members>SiteLoginController</members>
+        <members>SiteRegisterController</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
         <name>ApexComponent</name>
     </types>
     <types>
-        <members>*</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>Exception</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>StdExceptionTemplate</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
         <name>ApexPage</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Hour</members>
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Time_Tracking</members>
+        <members>sampleapp</members>
         <name>CustomApplication</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Account.Industry</members>
+        <members>Account.Ownership</members>
+        <members>Account.Rating</members>
+        <members>Account.Type</members>
+        <members>AccountContactRole.Role</members>
+        <members>Asset.ProductFamily</members>
+        <members>Asset.Status</members>
+        <members>Case.Origin</members>
+        <members>Case.Priority</members>
+        <members>Case.Reason</members>
+        <members>Case.Status</members>
+        <members>Case.Type</members>
+        <members>CaseContactRole.Role</members>
+        <members>Contact.LeadSource</members>
+        <members>Contract.Status</members>
+        <members>ContractContactRole.Role</members>
+        <members>Event.Subject</members>
+        <members>Event.Type</members>
+        <members>Idea.Categories</members>
+        <members>Idea.Status</members>
+        <members>Lead.Industry</members>
+        <members>Lead.LeadSource</members>
+        <members>Lead.Rating</members>
+        <members>Lead.Status</members>
+        <members>Opportunity.LeadSource</members>
+        <members>Opportunity.StageName</members>
+        <members>Opportunity.Type</members>
+        <members>OpportunityContactRole.Role</members>
+        <members>PartnerRole.ReverseRole</members>
+        <members>Product2.Family</members>
+        <members>Solution.Status</members>
+        <members>Task.Priority</members>
+        <members>Task.Status</members>
+        <members>Task.Subject</members>
+        <members>Task.Type</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
         <name>CustomLabels</name>
     </types>
     <types>
-        <members>*</members>
-        <members>Account</members>
-        <members>AccountContactRole</members>
-        <members>Activity</members>
-        <members>Asset</members>
-        <members>Case</members>
-        <members>CaseContactRole</members>
-        <members>Contact</members>
-        <members>ContentVersion</members>
-        <members>Contract</members>
-        <members>ContractContactRole</members>
-        <members>Event</members>
-        <members>Idea</members>
-        <members>JigsawSavedSearch</members>
-        <members>Lead</members>
-        <members>Opportunity</members>
-        <members>OpportunityContactRole</members>
-        <members>OpportunityLineItem</members>
-        <members>PartnerRole</members>
-        <members>Product2</members>
-        <members>Site</members>
-        <members>Solution</members>
-        <members>Task</members>
-        <members>User</members>
-        <members>UserLicense</members>
+        <members>Company__c</members>
+        <members>Contact__c</members>
+        <members>Detail__c</members>
+        <members>Hour_Template__c</members>
+        <members>Hour__c</members>
+        <members>Project__c</members>
+        <members>Week_Template__c</members>
+        <members>Week__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Company__c-en_US</members>
+        <members>Contact__c-en_US</members>
+        <members>Detail__c-en_US</members>
+        <members>Hour_Template__c-en_US</members>
+        <members>Hour__c-en_US</members>
+        <members>Project__c-en_US</members>
+        <members>Week_Template__c-en_US</members>
+        <members>Week__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>*</members>
-        <name>CustomPageWebLink</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomSite</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Company__c</members>
+        <members>Contact__c</members>
+        <members>Detail__c</members>
+        <members>Hour__c</members>
+        <members>Project__c</members>
+        <members>Week_Template__c</members>
+        <members>Week__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -80,27 +126,81 @@
         <name>Document</name>
     </types>
     <types>
-        <members>*</members>
+        <members>External Links</members>
         <name>HomePageComponent</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Dashboard Home Page Default</members>
         <name>HomePageLayout</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Account-Account Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>Case-Case Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>Company__c-Client Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Contact__c-Contact Layout</members>
+        <members>Contract-Contract Layout</members>
+        <members>Detail__c-Detail Layout</members>
+        <members>Event-Event Layout</members>
+        <members>Hour_Template__c-Hour Template Layout</members>
+        <members>Hour__c-Hour Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>Project__c-Project Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Task-Task Layout</members>
+        <members>User-User Layout</members>
+        <members>Week_Template__c-Hour Template Layout</members>
+        <members>Week__c-Week Layout</members>
         <name>Layout</name>
     </types>
     <types>
-        <members>*</members>
-        <name>Letterhead</name>
+        <members>Account.AllAccounts</members>
+        <members>Account.MyAccounts</members>
+        <members>Account.NewThisWeek</members>
+        <members>Activity.MyActivities</members>
+        <members>Activity.MyDelegatedActivities</members>
+        <members>Activity.MyTeamsActivities</members>
+        <members>Activity.TodaysTasks</members>
+        <members>Activity.UpcomingEvents</members>
+        <members>Asset.AllAssets</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
+        <members>Contact.AllContacts</members>
+        <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.NewThisWeek</members>
+        <members>Contract.AllActivatedContracts</members>
+        <members>Contract.AllContracts</members>
+        <members>Contract.AllDraftContracts</members>
+        <members>Contract.AllInApprovalContracts</members>
+        <members>Contract.MyActivatedContracts</members>
+        <members>Contract.MyDraftContracts</members>
+        <members>Contract.MyInApprovalContracts</members>
+        <members>Lead.AllOpenLeads</members>
+        <members>Lead.MyUnreadLeads</members>
+        <members>Lead.TodaysLeads</members>
+        <members>Opportunity.AllOpportunities</members>
+        <members>Opportunity.ClosingNextMonth</members>
+        <members>Opportunity.ClosingThisMonth</members>
+        <members>Opportunity.MyOpportunities</members>
+        <members>Opportunity.NewThisWeek</members>
+        <members>Opportunity.Won</members>
+        <members>Product2.AllProducts</members>
+        <members>Solution.AllReviewedSolutions</members>
+        <members>Solution.AllUnreviewedSolutions</members>
+        <members>User.ActiveUsers</members>
+        <members>User.AdminUsers</members>
+        <members>User.AllUsers</members>
+        <name>ListView</name>
     </types>
     <types>
-        <members>*</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Admin</members>
         <name>Profile</name>
     </types>
     <types>
@@ -108,23 +208,61 @@
         <members>SND_Reports/Hours_by_Company</members>
         <members>SND_Reports/Hours_by_Employee</members>
         <members>SND_Reports/Hours_by_Project</members>
-        <members>unfiled$public</members>
         <name>Report</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Clients_with_Projects_with_Weeks</members>
+        <members>Clients_with_Projects_with_Weeks_with_Hours</members>
+        <members>Hours_Weeks_Projects_Companies</members>
+        <members>Projects_with_Weeks_with_Hours_with_Details</members>
         <name>ReportType</name>
     </types>
     <types>
-        <members>*</members>
-        <name>Scontrol</name>
+        <members>Account.AltavistaNews</members>
+        <members>Account.GoogleMaps</members>
+        <members>Account.GoogleNews</members>
+        <members>Account.GoogleSearch</members>
+        <members>Account.HooversProfile</members>
+        <members>Account.YahooMaps</members>
+        <members>Contact.GoogleMaps</members>
+        <members>Contact.GoogleSearch</members>
+        <members>Contact.SendGmail</members>
+        <members>Contact.YahooMaps</members>
+        <members>Contact.YahooWeather</members>
+        <members>Lead.AltavistaNews</members>
+        <members>Lead.GoogleMaps</members>
+        <members>Lead.GoogleNews</members>
+        <members>Lead.GoogleSearch</members>
+        <members>Lead.HooversProfile</members>
+        <members>Lead.SendGmail</members>
+        <members>Lead.YahooMaps</members>
+        <name>WebLink</name>
     </types>
     <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Account</members>
+        <members>Asset</members>
+        <members>Case</members>
+        <members>Company__c</members>
+        <members>Contact</members>
+        <members>Contact__c</members>
+        <members>Contract</members>
+        <members>Detail__c</members>
+        <members>Event</members>
+        <members>Hour_Template__c</members>
+        <members>Hour__c</members>
+        <members>Idea</members>
+        <members>Lead</members>
+        <members>Opportunity</members>
+        <members>OpportunityLineItem</members>
+        <members>Organization</members>
+        <members>Product2</members>
+        <members>Project__c</members>
+        <members>Site</members>
+        <members>Solution</members>
+        <members>Task</members>
+        <members>UserLicense</members>
+        <members>Week_Template__c</members>
+        <members>Week__c</members>
         <name>Workflow</name>
     </types>
     <version>23.0</version>
