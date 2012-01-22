@@ -56,6 +56,5 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
-    <nameFieldLabel><!-- Hour Template Number --></nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
