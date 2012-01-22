@@ -28,7 +28,7 @@
         </components>
         <components>
             <chartAxisRange>Auto</chartAxisRange>
-            <componentType>ColumnStacked</componentType>
+            <componentType>Column</componentType>
             <displayUnits>Auto</displayUnits>
             <drillEnabled>false</drillEnabled>
             <drillToDetailEnabled>false</drillToDetailEnabled>
