@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <enableFeeds>true</enableFeeds>
     <fields>
         <fullName>Industry</fullName>
         <picklist>
@@ -183,6 +182,18 @@
                 <fullName>Other</fullName>
                 <default>false</default>
             </picklistValues>
+            <picklistValues>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </picklistValues>
             <sorted>false</sorted>
         </picklist>
         <type>Picklist</type>
@@ -226,6 +237,26 @@
             </picklistValues>
             <picklistValues>
                 <fullName>Unqualified</fullName>
+                <converted>false</converted>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Open - Not Contacted</fullName>
+                <converted>false</converted>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Working - Contacted</fullName>
+                <converted>false</converted>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Closed - Converted</fullName>
+                <converted>true</converted>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Closed - Not Converted</fullName>
                 <converted>false</converted>
                 <default>false</default>
             </picklistValues>
@@ -303,7 +334,7 @@
         <protected>false</protected>
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
-        <url>http://news.altavista.com/search?nc=0&amp;q={!Lead_Company}</url>
+        <url>http://news.altavista.com/search?nc=0&amp;q={!Lead.Company}</url>
     </webLinks>
     <webLinks>
         <fullName>GoogleMaps</fullName>
@@ -321,7 +352,7 @@
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Lead_Street}+{!Lead_City}+{!Lead_State}&amp;om=1</url>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Lead.Street}+{!Lead.City}+{!Lead.State}&amp;om=1</url>
     </webLinks>
     <webLinks>
         <fullName>GoogleNews</fullName>
@@ -339,7 +370,7 @@
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>http://www.google.com/news?&amp;q={!Lead_Company}&amp;btnG=Search+News</url>
+        <url>http://www.google.com/news?&amp;q={!Lead.Company}&amp;btnG=Search+News</url>
     </webLinks>
     <webLinks>
         <fullName>GoogleSearch</fullName>
@@ -357,7 +388,7 @@
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>http://www.google.com/search?q={!Lead_Company}</url>
+        <url>http://www.google.com/search?q={!Lead.Company}</url>
     </webLinks>
     <webLinks>
         <fullName>HooversProfile</fullName>
@@ -375,7 +406,7 @@
         <protected>false</protected>
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
-        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Lead_Company}</url>
+        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Lead.Company}</url>
     </webLinks>
     <webLinks>
         <fullName>SendGmail</fullName>
@@ -393,7 +424,7 @@
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to={!Lead_Email}&lt;{!Lead_LastName}, {!Lead_FirstName}&gt;&amp;tf=1</url>
+        <url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to={!Lead.Email}&lt;{!Lead.LastName}, {!Lead.FirstName}&gt;&amp;tf=1</url>
     </webLinks>
     <webLinks>
         <fullName>YahooMaps</fullName>
@@ -411,6 +442,6 @@
         <protected>false</protected>
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
-        <url>http://maps.yahoo.com/py/maps.py?cn={!Lead_Country}&amp;csz={!Lead_City}+{!Lead_State}+{!Lead_PostalCode}+&amp;addr={!Lead_Address}</url>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Lead.Country}&amp;csz={!Lead.City}+{!Lead.State}+{!Lead.PostalCode}+&amp;addr={!Lead.Street}</url>
     </webLinks>
 </CustomObject>
